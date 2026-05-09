@@ -8,11 +8,17 @@
   },
   "dependencies": {
     "vue": "^2.7.16",
-    "vue2-component-lib": "file:../vue2-component-lib"
+    "vue2-component-lib": "git+https://github.com/zhiyi98/vue2-component-lib.git#v1.0.0"
   },
   "devDependencies": {
     "vite": "^4.5.0",
     "vite-plugin-vue2": "^2.0.3",
     "vue-template-compiler": "^2.7.16"
+  },
+  "_comments": {
+    "git-https-dependency": "git+https://github.com/<owner>/vue2-component-lib.git",
+    "git-https-with-tag": "git+https://github.com/<owner>/vue2-component-lib.git#v1.0.0",
+    "git-https-with-token": "git+https://<token>@github.com/<owner>/vue2-component-lib.git",
+    "local-file-reference": "file:../vue2-component-lib (current)"
   }
 }
